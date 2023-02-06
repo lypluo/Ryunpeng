@@ -1,3 +1,7 @@
+###################################################
+#Aim: filter the outlier data from PhenoCam GCC or similar data
+###################################################
+
 SplineFilter_thengap_f<-function(P_Ori){
   library(phenopix)
   ##do primary gapfilling in order to enable SplineFit function afterwards
